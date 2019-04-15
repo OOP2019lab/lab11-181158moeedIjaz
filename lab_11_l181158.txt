@@ -1,0 +1,22 @@
+Answer 6
+(a)
+The reason for this is that the members are accessed only through getters/setters. 
+This way the the derived classes do not get direct access to the private members.
+
+(b & c)
+
+cout << f_name() << " " << l_name() << " is " << age << " years old, his cgpa is " << cgpa << endl;
+
+Private members f_name, l_name cannot be 
+directly accessed by the class student because 
+they are private members of the parent class and 
+thus are not directly accessible by the inheriting classes.
+
+Answer 8
+
+The public functions of the base class are inherited as protected functions.
+
+
+Answer 9
+
+The public functions  of the base class are inherited as private members and cannot access these members freely
